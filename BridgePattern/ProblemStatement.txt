@@ -1,0 +1,9 @@
+﻿-----------Adapter pattern Applicability----------
+1- Higher Level Statement as per GOF decouple  abstraction from its
+implemntation.
+2- As per my experince and usage when we have a lot of combination which we require to create in the 
+application we can try to bridge the two seprate class hierachy rather than creating a
+new class for every combination.
+3- Which will ultimately lead to class bloating and unmaintainable code.
+4- separaing up two diffrent class hierachy and client decides how to couuple them tigether
+

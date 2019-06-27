@@ -1,0 +1,7 @@
+﻿-----------Builder pattern Applicability----------
+1- When we need to pass too many parameter in constructor for object creation
+2- And Construction process is order dependent.
+3- We have diffrent construction process
+4- To Note step/recipe should be the same for construction.
+4-GOF : Seprates the construction of complex obejct from its representation
+so that same construction process can create diffrent representations.

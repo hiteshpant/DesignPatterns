@@ -1,0 +1,8 @@
+﻿-----------Adapter pattern Applicability----------
+1- When we want to add responsibility to object dynamically at run time  without changing the bse class as per GOF
+------------ from experience------
+1- Alternative to subclassing rather than creating inheritance for all combination we acn uise dcorator and use diffrent combination
+of decorator
+2-Support OCP
+3- Makes design flexible
+4- prevent class bloating for diffrent combinations
