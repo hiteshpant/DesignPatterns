@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatePatternChecker", "Stat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatePattern", "StatePattern\StatePattern.csproj", "{5C008E62-AFDE-4D59-9D36-A0875AA30585}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplatePattern", "TemplatePattern\TemplatePattern.csproj", "{AE8DEF25-33AB-49A9-A71B-8AA358218F1B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{5C008E62-AFDE-4D59-9D36-A0875AA30585}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C008E62-AFDE-4D59-9D36-A0875AA30585}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C008E62-AFDE-4D59-9D36-A0875AA30585}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE8DEF25-33AB-49A9-A71B-8AA358218F1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE8DEF25-33AB-49A9-A71B-8AA358218F1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE8DEF25-33AB-49A9-A71B-8AA358218F1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE8DEF25-33AB-49A9-A71B-8AA358218F1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -69,6 +75,7 @@ Global
 		{2A7B9B09-AA56-4544-80A3-74EA552C6901} = {F5AD45B1-D87F-4121-A7F8-FD2966E05F0C}
 		{AE0787EE-FD7C-4744-97A3-B85A33ED34A1} = {B0693C67-CF4B-4EDA-8901-448839412F91}
 		{5C008E62-AFDE-4D59-9D36-A0875AA30585} = {B0693C67-CF4B-4EDA-8901-448839412F91}
+		{AE8DEF25-33AB-49A9-A71B-8AA358218F1B} = {B0693C67-CF4B-4EDA-8901-448839412F91}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {05445083-DE10-4E2D-A461-E8908D82B4DE}
