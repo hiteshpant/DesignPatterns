@@ -1,8 +1,12 @@
 ﻿-----------Adapter pattern Applicability----------
-1- When we want to add responsibility to object dynamically at run time  without changing the bse class as per GOF
------------- from experience------
-1- Alternative to subclassing rather than creating inheritance for all combination we acn uise dcorator and use diffrent combination
-of decorator
-2-Support OCP
-3- Makes design flexible
-4- prevent class bloating for diffrent combinations
+1- When we have a class that is useful to our application but application does
+not implement the interface the usable class required.
+2- Commonly know as wrapper
+3- When we are designing  a class or a framework and want to enure it can be usable by wide variety of
+as yet unwritten classes and applications.
+4- Adapter pattern are applied after all deign is already done an we are more into implementaion
+mode just to make usable components comaptable with each other
+
+5- e.g. in Dot net framework
+
+DataAdapter is adapted by SQL, OLEdb,ODBC

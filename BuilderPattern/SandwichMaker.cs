@@ -23,7 +23,7 @@ namespace BuilderPattern
             _Builder.ApplyMeatAndCheese();
             _Builder.ApplyVegetables();
             _Builder.ApplyCondiments();
-            return _Builder.GetSandwich();x
+            return _Builder.GetSandwich();
         }
     }
 }

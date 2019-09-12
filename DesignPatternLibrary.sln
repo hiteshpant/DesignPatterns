@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural Patterns", "Structural Patterns", "{F5AD45B1-D87F-4121-A7F8-FD2966E05F0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterrPattern", "AdapterrPattern\AdapterrPattern.csproj", "{20501A56-81FB-4999-A09C-C24576F751D5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "AdapterrPattern\AdapterPattern.csproj", "{20501A56-81FB-4999-A09C-C24576F751D5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgePattern", "BridgePattern\BridgePattern.csproj", "{68E4E6E9-C365-4EC3-B303-DF147C6A4130}"
 EndProject
@@ -16,6 +16,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{F43C08FC-CE3C-40BF-A8A6-4DCE7BB666EA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventAggregator", "EventAggregator\EventAggregator.csproj", "{2A7B9B09-AA56-4544-80A3-74EA552C6901}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioural", "Behavioural", "{B0693C67-CF4B-4EDA-8901-448839412F91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatePatternChecker", "StatePatternChecker\StatePatternChecker.csproj", "{AE0787EE-FD7C-4744-97A3-B85A33ED34A1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatePattern", "StatePattern\StatePattern.csproj", "{5C008E62-AFDE-4D59-9D36-A0875AA30585}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +49,14 @@ Global
 		{2A7B9B09-AA56-4544-80A3-74EA552C6901}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A7B9B09-AA56-4544-80A3-74EA552C6901}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A7B9B09-AA56-4544-80A3-74EA552C6901}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE0787EE-FD7C-4744-97A3-B85A33ED34A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE0787EE-FD7C-4744-97A3-B85A33ED34A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE0787EE-FD7C-4744-97A3-B85A33ED34A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE0787EE-FD7C-4744-97A3-B85A33ED34A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C008E62-AFDE-4D59-9D36-A0875AA30585}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C008E62-AFDE-4D59-9D36-A0875AA30585}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C008E62-AFDE-4D59-9D36-A0875AA30585}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C008E62-AFDE-4D59-9D36-A0875AA30585}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +67,8 @@ Global
 		{3A9DBD0E-C281-42C8-9298-E311E9EAB154} = {85A9A22A-2DEA-47A7-9F76-E571D55D8D87}
 		{F43C08FC-CE3C-40BF-A8A6-4DCE7BB666EA} = {F5AD45B1-D87F-4121-A7F8-FD2966E05F0C}
 		{2A7B9B09-AA56-4544-80A3-74EA552C6901} = {F5AD45B1-D87F-4121-A7F8-FD2966E05F0C}
+		{AE0787EE-FD7C-4744-97A3-B85A33ED34A1} = {B0693C67-CF4B-4EDA-8901-448839412F91}
+		{5C008E62-AFDE-4D59-9D36-A0875AA30585} = {B0693C67-CF4B-4EDA-8901-448839412F91}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {05445083-DE10-4E2D-A461-E8908D82B4DE}
