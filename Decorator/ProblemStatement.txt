@@ -1,7 +1,7 @@
 ﻿-----------Decorator pattern Applicability----------
 1- When we want to add responsibility to object dynamically at run time  without changing the bse class as per GOF
 ------------ from experience------
-1- Alternative to subclassing rather than creating inheritance for all combination we acn uise dcorator and use diffrent combination
+1- Alternative to subclassing rather than creating inheritance for all combination we can use dcorator and use diffrent combination
 of decorator
 2-Support OCP
 3- Makes design flexible
